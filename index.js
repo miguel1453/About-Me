@@ -1,12 +1,25 @@
 function submit(answer) {
     var container = document.querySelector('#answer'+answer);
+    var style = container.style.backgroundColor
     if (answer == 1) {
-        container.style.backgroundColor = 'red'
+        if (style != 'red') {
+            container.style.backgroundColor = 'red'
+        } else {
+            container.style.backgroundColor = '#73916932';
+        }
     }
     if (answer == 2) {
-        container.style.backgroundColor = 'green'
+        if (style != 'green') {
+            container.style.backgroundColor = 'green'
+        } else {
+            container.style.backgroundColor = '#73916932';
+        }
     }
     if (answer == 3) {
-        container.style.backgroundColor = 'red'
+        if (style != 'red') {
+            container.style.backgroundColor = 'red'
+        } else {
+            container.style.backgroundColor = '#73916932';
+        }
     }
 }
