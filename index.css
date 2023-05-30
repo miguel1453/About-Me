@@ -27,15 +27,10 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+.my-h1 {
     font-family: 'Poppins', sans-serif;
-    
-    text-align: center;
-    
     font-size: 75px;
-    padding: 2px;
-    margin: 0px;
-    align-self: center;
+   
 }
 
 @media screen and (max-width: 550px) {
@@ -104,9 +99,7 @@ li {
 
 
 
-.infoBoxImage {
-    max-width: 500px;
-}
+
 
 .headline {
     display: flex;
@@ -124,9 +117,7 @@ li {
     
 }
 
-img {
-    border-radius: 100px;
-}
+
 
 #capetown, #appteam {
     height: 400px;
@@ -164,6 +155,16 @@ img {
     border-radius: 10px;
    
  }
+
+ .img-thumbnail {
+    border-radius: 50px;
+ }
+
+ .navbar-white {
+    background-color: white;
+ }
+
+
 
 
 
